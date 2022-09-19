@@ -1,5 +1,5 @@
 {
-    "name": "RunningTotalTests",
+    "name": "RunningTotalT",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
