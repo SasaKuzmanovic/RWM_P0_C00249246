@@ -18,14 +18,8 @@ public class RunningTotal : MonoBehaviour
             for (int i = 0; i < xs.Length; i++)
             {
                 result[i] = run(xs[i]);
-                //sum += result[i];
                 sum += result[i];
                 newArray[i] = sum;
-                //for (int j = 0; j <= i; j++)
-                //{
-                //    sum += result[i];
-                //    newArray[i] = sum;
-                //}
             }
             return newArray;
         }
